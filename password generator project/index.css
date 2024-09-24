@@ -1,0 +1,83 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    margin: 0;
+    padding: 20px;
+    color: #fff; /* White text color */
+}
+
+/* Heading Styling */
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow */
+}
+
+/* Container for Form Elements */
+.container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    max-width: 400px;
+    margin: 0 auto; /* Center the container */
+}
+
+/* Label and Input Styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #ff4081; /* Bright button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #e91e63; /* Darker shade on hover */
+    transform: translateY(-2px); /* Button lift effect */
+}
+
+button:active {
+    transform: translateY(-1px);/* Button drop effect */
+    background-color: #ee4382; /* Darker shade on active state */
+}
+
+/* Password Display Styling */
+#passwordDisplay {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border: 1px solid #ff4081; /* Border color matching button */
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    color: #fff; /* White text for password */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    transition: background-color 0.3s ease; /* Smooth transitions */
+}
+
+#passwordDisplay:hover {
+    background: rgba(255, 255, 255, 0.3); /* Slightly brighter on hover */
+}
